@@ -9,13 +9,13 @@ st_inventory telematics_to_inventory(st_telematics* obj_telematics)
   switch(obj_telematics->type)
   {
     case motor_temp:
-      st_inventory->motor_temp = obj_telematics->measurement;
+      st_inventory.motor_temp = obj_telematics->measurement;
       break;
     case battery_pc:
-      st_inventory->battery_temp = obj_telematics->measurement;
+      st_inventory.battery_temp = obj_telematics->measurement;
       break;
     case battery_temp:
-      st_inventory->battery_pc = obj_telematics->measurement;
+      st_inventory.battery_pc = obj_telematics->measurement;
       break;
     default:break;
   }
