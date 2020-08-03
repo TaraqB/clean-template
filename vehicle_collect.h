@@ -12,7 +12,7 @@ typedef struct telematics
   float measurement;
 }
 
-typedefstruct inventory
+typedef struct inventory
 {
   int vehicle_id;
   float motor_temp;
