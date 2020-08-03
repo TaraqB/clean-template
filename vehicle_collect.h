@@ -1,18 +1,18 @@
-typedef enum en_measure
+enum en_measure
 {
   motor_temp,
   battery_pc,
   battery_temp,
 };
 
-typedef struct st_telematics
+struct st_telematics
 {
   int vehicle_id;
   en_measure type;
   float measurement;
 };
 
-typedef struct st_inventory
+struct st_inventory
 {
   int vehicle_id;
   float motor_temp;
