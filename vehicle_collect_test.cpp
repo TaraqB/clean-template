@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include "vehicle_collect.h"
 
+
 TEST(COLLECT,when_vehicle_reports_measurement_fetch_and_store){
  
  st_telematics obj_telematics = {231,motor_temp,30};
