@@ -3,14 +3,14 @@ typedef enum en_measure
   motor_temp,
   battery_pc,
   battery_temp,
-}
+};
 
 typedef struct st_telematics
 {
   int vehicle_id;
   en_measure type;
   float measurement;
-}
+};
 
 typedef struct st_inventory
 {
