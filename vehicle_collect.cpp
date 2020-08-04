@@ -1,8 +1,9 @@
+#include <math.h>
 #include "vehicle_collect.h"
 
 st_inventory telematics_to_inventory(st_telematics* obj_telematics)
 {
-  st_inventory st_inventory;
+  st_inventory st_inventory = {0,NAN,NAN,NAN};
   
   st_inventory.vehicle_id = obj_telematics->vehicle_id;
   
